@@ -3,6 +3,7 @@ name = "togu"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
+description = "A WIP magical CLI tool for mass updates."
 
 [dependencies]
 anyhow = "1.0"
