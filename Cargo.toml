@@ -1,0 +1,18 @@
+[package]
+name = "togu"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+ignore = "0.4.23"
+regex = "1.11"
+tempdir = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[[bin]]
+name = "togu"
+path = "src/main.rs"
